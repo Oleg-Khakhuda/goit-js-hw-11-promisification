@@ -7,4 +7,4 @@ const e=[{name:"Mango",active:!0},{name:"Poly",active:!1},{name:"Ajax",active:!0
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/task1"),require("./js/task2");
 },{"./sass/main.scss":"clu1","./js/task1":"u2QS","./js/task2":"n9ff"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-promisification/src.215fe181.js.map
+//# sourceMappingURL=/goit-js-hw-11-promisification/src.33c7e46b.js.map
