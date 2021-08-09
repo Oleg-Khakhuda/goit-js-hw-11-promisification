@@ -2,7 +2,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 
 },{}],"u2QS":[function(require,module,exports) {
 const e=e=>new Promise(o=>{setTimeout(()=>{o(`${e}`)},e)}),o=e=>console.log(`Resolved after ${e}ms`);e(2e3).then(o),e(1e3).then(o),e(1500).then(o);
+},{}],"n9ff":[function(require,module,exports) {
+const e=[{name:"Mango",active:!0},{name:"Poly",active:!1},{name:"Ajax",active:!0},{name:"Lux",active:!1}],a=(e,a)=>{const n=e.map(e=>e.name===a?{...e,active:!e.active}:e);return new Promise(e=>{e(n)})},n=e=>console.table(e);a(e,"Mango").then(n),a(e,"Lux").then(n);
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./sass/main.scss"),require("./js/task1");
-},{"./sass/main.scss":"clu1","./js/task1":"u2QS"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-promisification/src.663533b8.js.map
+"use strict";require("./sass/main.scss"),require("./js/task1"),require("./js/task2");
+},{"./sass/main.scss":"clu1","./js/task1":"u2QS","./js/task2":"n9ff"}]},{},["Focm"], null)
+//# sourceMappingURL=/goit-js-hw-11-promisification/src.215fe181.js.map
